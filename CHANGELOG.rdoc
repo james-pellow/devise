@@ -1,6 +1,7 @@
 * enhancements
   * Rememberable module allows user to be remembered across browsers and is enabled by default (by github.com/trevorturk)
   * devise_for can now be used together with scope method in routes but with a few limitations (check the documentation)
+  * HTTP Basic Auth can now be disabled/enabled for xhr(ajax) requests using http_authenticatable_on_xhr option.
 
 * deprecation
   * :path_prefix option in devise_for is no longer supported
